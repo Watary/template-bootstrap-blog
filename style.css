@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #c8cce6;
+}
+
+header{
+    background: #fff;
+}
+
+.navbar-brand{
+    float: none;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.navbar-nav > li > a{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.navbar-toggle .icon-bar{
+    background: #000;
+    z-index: 100;
+}
+
+.navbar-toggle{
+    padding: 19px 10px;
+}
+
+.main-column{
+    margin-top: 15px;
+}
