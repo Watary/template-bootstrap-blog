@@ -41,6 +41,10 @@ header{
     color: #444;
 }
 
+.pagination{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
 /** Bootstrap **/
 
 .main-column{
@@ -48,22 +52,19 @@ header{
 }
 
 .main-column .article{
-    background: #fff;
     padding: 10px;
 }
 
 .sidebar .widget,
 .main-column .article{
     margin-bottom: 30px;
-}
-
-.sidebar .widget{
+    color: #444;
     background: #fff;
 }
 
-.article{
-    color: #444;
-}
+
+
+/** Section article **/
 .article .article-thumbnail{
     width: calc(100% + 20px);
     margin-left: -10px;
@@ -77,8 +78,11 @@ header{
     width: 50px;
     margin-right: 10px;
 }
+/** Section article **/
 
-.pagination{
-    margin-left: 50%;
-    transform: translateX(-50%);
+
+/** Sidebar **/
+.sidebar .widget {
+    
 }
+/** Sidebar **/
